@@ -1,28 +1,65 @@
 # DPI Validation Framework
 
-Detector-Plane Imaging (DPI) validation corpus for observability-focused analysis of detector and interferometric measurement pipelines.
+Detector-Plane Imaging (DPI) validation framework for detector-space observability analysis across diffraction, interferometry, coherent imaging, and beamline propagation systems.
 
----
+The framework explores how structured detector-plane observability can reveal coherence organization, diffraction persistence, edge continuity, and propagation structure beyond raw intensity visualization.
 
-# Validation Cases
+## Core Focus Areas
 
-## 001 — AU-UV Interferometry
+- detector-plane coherence structure
+- diffraction persistence
+- observability enhancement
+- coherence topology extraction
+- detector-space analysis workflows
+- coherent diffraction imaging (CDI)
+- interferometry
+- beamline propagation analysis
+- phase retrieval and reconstruction systems
 
-Focus:
-- laser interferometry
-- detector-channel observability
-- signal persistence analysis
-- structure-gradient visualization
+## Repository Structure
 
-Artifacts:
-- observability heatmaps
-- detector structure persistence maps
-- residual signal analysis
+cases/
+├── registry.json
+├── 001-au-uv-ices/
+├── 002-xrt-interferometry/
+└── ...
 
----
+Each case directory may contain:
+- issue context
+- findings
+- detector outputs
+- overlays
+- notebooks
+- reproducibility assets
 
-# DPI Principle
+## Validation Registry
 
-The framework investigates how detector-plane signal structure survives measurement, smoothing, fitting, and visualization pipelines.
+Structured validation cases are tracked in:
 
-DPI overlays aim to recover and visualize observability structure already present within detector-derived signals.
+cases/registry.json
+
+The registry contains:
+- case identifiers
+- scientific domains
+- external repositories/issues
+- contributors
+- DPI application areas
+- overlay artifacts
+- engagement status
+- validation remarks
+
+## Current Status
+
+Exploratory detector observability validation framework.
+
+Current outputs are primarily qualitative observability analyses intended to support future quantitative detector-plane metrics, coherence persistence measurements, and detector-space structure analysis.
+
+## Conceptual Direction
+
+DPI treats detector outputs as structured observability manifolds rather than intensity-only measurement surfaces.
+
+The broader framework aligns with detector-plane causality and contextual propagation analysis explored in:
+- The Imprint Hypothesis
+- Quantum Measurement Stack
+- Detector-Plane Imaging (DPI)
+
