@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "case_id": "001",
+      "title": "AU UV Ice Morphology",
+      "domain": "microscopy",
+      "source_type": "internal",
+      "organization": null,
+      "external_repo": null,
+      "external_issue": null,
+      "contributors": [],
+      "dpi_applications": [
+        "structure persistence",
+        "morphology enhancement"
+      ],
+      "artifacts": {
+        "overlays": true,
+        "notebooks": true,
+        "raw_outputs": true
+      },
+      "status": "archived",
+      "engagement": {
+        "external_response": false,
+        "follow_up_needed": false,
+        "comment_posted": false
+      },
+      "remarks": "Initial DPI morphology validation case."
+    },
+    {
+      "case_id": "002",
+      "title": "xrt Transmission Grating Interferometry",
+      "domain": "x-ray interferometry",
+      "source_type": "github",
+      "organization": "kklmn/xrt",
+      "external_repo": "https://github.com/kklmn/xrt",
+      "external_issue": "#262",
+      "contributors": [
+        "ma1w"
+      ],
+      "dpi_applications": [
+        "detector-plane coherence overlays",
+        "diffraction persistence analysis",
+        "structure observability"
+      ],
+      "artifacts": {
+        "overlays": true,
+        "notebooks": true,
+        "raw_outputs": true
+      },
+      "status": "waiting-response",
+      "engagement": {
+        "external_response": false,
+        "follow_up_needed": false,
+        "comment_posted": true
+      },
+      "remarks": "Transmission grating / shearing interferometry exploratory DPI overlays."
+    }
+  ]
+}
