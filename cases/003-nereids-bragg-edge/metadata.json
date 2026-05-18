@@ -1,0 +1,18 @@
+{
+  "case_id": "003",
+  "title": "NEREIDS Bragg-Edge Observability",
+  "repository": "https://github.com/ornlneutronimaging/NEREIDS",
+  "issue": "https://github.com/ornlneutronimaging/NEREIDS/issues/451",
+  "domain": "neutron imaging",
+  "focus": [
+    "detector-space observability",
+    "Bragg-edge coherence structure",
+    "diffraction persistence",
+    "coherence topology",
+    "observability overlays"
+  ],
+  "dpi_role": "detector-plane observability overlay framework",
+  "status": "active",
+  "priority": "high",
+  "interaction_strategy": "lightweight overlay demonstration"
+}
